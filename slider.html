@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Deberc Calculator</title>
+	<style type="text/css">
+
+		* {
+    margin: 0;
+    padding: 0;
+   }
+   .game{
+
+		margin-left: 410px;
+		margin-top: 300px;
+		position: absolute;
+
+}
+
+.team2{
+     
+      margin-left: 460px;
+      margin-top: 300px;
+      position: absolute;
+
+}
+
+.team1{
+	margin-top: 300px;
+	margin-left: 250px;
+	position: absolute;
+
+
+
+
+}
+.pole1{
+   
+      width: 150px;
+      height: 70px;
+      border-style: double;
+      margin-left: 250px;
+      margin-top: 190px;
+      position: absolute;
+
+}
+
+.pole2{
+   
+      width: 150px;
+      height: 70px;
+      border-style: double;
+      margin-left: 450px;
+      margin-top: 190px;
+      position: absolute;
+
+}
+.t1{
+
+  margin-left: 250px;
+  margin-top: 170px;
+  position: absolute;
+
+
+}
+.t2{
+	margin-left: 450px;
+  margin-top: 170px;
+  position: absolute;
+}
+.res{
+
+	position: absolute;
+	margin-left: 410px;
+	margin-top: 340px;
+}
+
+.write{
+
+position: absolute;
+margin-left: 450px;
+margin-top: 500px;
+height: 500px;
+
+
+}
+
+
+	</style>   
+</head>
+<body>
+
+	<textarea id="team1" class="team1" placeholder="Команда 1" maxlength="3">
+		
+	</textarea>
+
+	<select id="game" class="game">
+		
+<option>162</option>
+<option>182</option>
+<option>202</option>
+<option>212</option>
+<option>222</option>
+<option>232</option>
+<option>242</option>
+<option>252</option>
+<option>262</option>
+<option>272</option>
+<option>282</option>
+<option>292</option>
+<option>302</option>
+<option>312</option>
+<option>322</option>
+<option>342</option>
+<option>352</option>
+<option>362</option>
+<option>372</option>
+<option>382</option>
+
+	</select>
+
+
+
+	<textarea id="team2" class="team2" placeholder="Команда 2 " maxlength="3">
+		
+	</textarea>
+<p class="t1">  Команда 1</p>
+	<div id="pole1" class="pole1">
+		
+            
+	</div>
+<p class="t2">   Команда 2  </p>
+	<div id="pole2" class="pole2" >
+
+
+		
+	</div>
+	<button id="res" class="res" onclick="tablo();">
+		Записать
+	</button>
+<div id="write" class="write">
+	
+</div>
+
+</body>
+<script src="slider.js"></script>
+</html>
